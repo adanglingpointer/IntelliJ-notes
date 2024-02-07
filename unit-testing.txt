@@ -1,0 +1,11 @@
+right click GuessingGame > Open Module Settings
+Libraries > + > From Maven
+org.junit.jupiter
+
+right click GuessingGame > Open Module Settings
+Modules > right click src > New Folder
+	main
+	test
+
+click on main > Sources
+test > Tests

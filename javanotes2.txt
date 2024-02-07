@@ -1,0 +1,60 @@
+ctrl+alt+v = place into a variable
+alt+f12 = terminal
+ctrl+f9 = recompile
+alt+1 = close project pane
+ctrl+alt+t = surroung code in a while/if loop
+alt+shit+up = move line of code up
+shift+tab = tab backward
+alt+enter = after hovering over red/error code, give choices to fix
+ctrl+shift+t = navigate to test class from class that you are testing
+ctrl+p = look at possible paremeters to enter
+ctrl = hold ctrl and click on class name to go to class, or..
+ctrl+b = go to class
+
+java -cp .\out\production\ControlFlow\ WhileLoops
+(class path)
+
+        /* IntelliJ keyboard commands */
+        /*
+            Ctrl + Shift + F10 = run
+            Shift + Enter = enter line below
+            Ctrl + Alt + Enter = enter line above
+            Ctrl + Y = delete line
+            Ctrl + / = comment out
+            Ctrl + D = duplicate line
+            Alt + Shift + Down = move line down
+            Ctrl + B + click on method = take you to method
+            Ctrl + N = brings up search, search for file/class
+            Ctrl + O = override
+            Ctrl + Alt + V = assign to a variable
+            Ctrl + Alt + N = inline a variable
+            Shift + F6 = rename all instances of a variable
+            Alt + Shift + click = create two cursors to type on two lines
+            Ctrl + W = select larger bits of text within an element
+         */
+
+===
+
+frameworks for automatic testing [unit testing]
+as add-on libraries (dependencies)
+
+using Maven and Gradle
+
+J-Unit
+	the most popular unit test
+
+TDD = Test Driven Development
+
+===
+
+right click GuessingGame > Open Module Settings
+Libraries > + > From Maven
+org.junit.jupiter
+
+right click GuessingGame > Open Module Settings
+Modules > right click src > New Folder
+	main
+	test
+
+click on main > Sources
+test > Tests

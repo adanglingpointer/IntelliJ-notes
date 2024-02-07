@@ -1,0 +1,26 @@
+unsigned byte = positive only = up to 255
+signed byte = positive and negative = -128 to 127
+largest byte is MSB = most significant byte
+used to hold the negative/positive value in the largest (128) bit of a byte
+
+boolean = 1 bit
+
+8 bits = a byte
+4 bits = nibble
+
+short (2 bytes / 16 bits) = -32,768 to 32,767
+	
+char (2 bytes) 
+
+java uses unicode (not ascii)
+it's an extension of ascii?
+
+integer = int = -2,147,483,648 to 2,147,483,647
+
+long = -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+	often used for database record IDs
+
+primative data types for floating point number, such as .0952
+float & double
+double is twice as wide as float
+32 bits vs 64 bits

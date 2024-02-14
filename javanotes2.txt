@@ -28,6 +28,7 @@ java -cp .\out\production\ControlFlow\ WhileLoops
             Ctrl + O = override
             Ctrl + Alt + V = assign to a variable
             Ctrl + Alt + N = inline a variable
+            Ctrl + Alt + M = turn into a method
             Shift + F6 = rename all instances of a variable
             Alt + Shift + click = create two cursors to type on two lines
             Ctrl + W = select larger bits of text within an element

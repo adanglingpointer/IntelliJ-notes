@@ -1,38 +1,37 @@
-ctrl+alt+v = place into a variable
-alt+f12 = terminal
-ctrl+f9 = recompile
-alt+1 = close project pane
-ctrl+alt+t = surroung code in a while/if loop
-alt+shit+up = move line of code up
-shift+tab = tab backward
-alt+enter = after hovering over red/error code, give choices to fix
-ctrl+shift+t = navigate to test class from class that you are testing
-ctrl+p = look at possible paremeters to enter
-ctrl = hold ctrl and click on class name to go to class, or..
-ctrl+b = go to class
-
-java -cp .\out\production\ControlFlow\ WhileLoops
-(class path)
-
         /* IntelliJ keyboard commands */
         /*
             Ctrl + Shift + F10 = run
+            Ctrl + F9 = recompile
+            Alt + F12 = terminal
+            Ctrl = hold ctrl and click on class name to go to class, or method
+            Ctrl + B = go to class
+            Alt + Enter = after hovering over red/error code, give choices to fix
+            Ctrl + P = look at possible paremeters to enter
+            Shift + Tab = tab backward
             Shift + Enter = enter line below
             Ctrl + Alt + Enter = enter line above
             Ctrl + Y = delete line
             Ctrl + / = comment out
             Ctrl + D = duplicate line
+            Alt + Shift + Up = move line of code up
             Alt + Shift + Down = move line down
+            Ctrl + Shift + J = put curser at end of end, this will append the next line to current line
             Ctrl + B + click on method = take you to method
             Ctrl + N = brings up search, search for file/class
             Ctrl + O = override
             Ctrl + Alt + V = assign to a variable
             Ctrl + Alt + N = inline a variable
             Ctrl + Alt + M = turn into a method
+            Ctrl + Alt + T = surroung code in a while/if loop
             Shift + F6 = rename all instances of a variable
             Alt + Shift + click = create two cursors to type on two lines
-            Ctrl + W = select larger bits of text within an element
+            Ctrl + W = select bits of text (incrementally) within an element
+            Ctrl + Shift + T = navigate to test class from class that you are testing
+            Alt + 1 = close project pane
          */
+
+java -cp .\out\production\ControlFlow\ WhileLoops
+(class path)
 
 ===
 

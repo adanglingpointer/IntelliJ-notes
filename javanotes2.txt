@@ -30,6 +30,7 @@
             Alt + 1 = close project pane
          */
 
+to run a compiled java app:
 java -cp .\out\production\ControlFlow\ WhileLoops
 (class path)
 

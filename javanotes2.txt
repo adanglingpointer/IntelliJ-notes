@@ -28,6 +28,7 @@
             Ctrl + W = select bits of text (incrementally) within an element
             Ctrl + Shift + T = navigate to test class from class that you are testing
             Alt + 1 = close project pane
+            Ctrl + Alt + O = optimize imports, remove unused
          */
 
 to run a compiled java app:
@@ -59,3 +60,32 @@ Modules > right click src > New Folder
 
 click on main > Sources
 test > Tests
+
+===
+
+public interface Employee {
+
+}
+
+used as
+
+public class Programmer implements Employee {
+
+}
+
+-
+
+public class Employee {
+
+}
+
+used as:
+
+public class Programmer extends Employee {
+
+}
+
+===
+
+right click > refactor > pull members up
+	can bring to extended class

@@ -89,3 +89,7 @@ public class Programmer extends Employee {
 
 right click > refactor > pull members up
 	can bring to extended class
+
+===
+
+class interface vs class hierarchy with super class vs abstract class

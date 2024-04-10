@@ -93,3 +93,50 @@ right click > refactor > pull members up
 ===
 
 class interface vs class hierarchy with super class vs abstract class
+
+===
+
+Effective Java
+by
+Joshua Bloch
+
+===
+
+by making a class final, we prevent other classes from extended it
+non-static class is known as inner-class
+
+when to use a static nested class vs. a non-static inner class?
+
+if you don't need anything more than what you would get from a static nested class, and if you may need to refer to that static nested class in more than one place, then static is advised.
+if your nested class needs to be able to access fields of the enclosing class, then you may need to consider using an inner class.
+
+static = not allowed to access fields on it's enclosing class
+
+this is not allowed:
+
+private static void myMethod() {
+	this.firstNamer = "";
+}
+
+fields of a class only exist once you create an instance of that class. but static members of a class exist prior to, during, and after the creation of instances of that class.
+
+static classes can not access non-static members of an enclosing class.
+
+however, we can access fields with an inner-class:
+
+private final class MyInnerClass {
+	public int getStuff() {
+		System.our.println(firstName);
+		return 0;
+	}
+}
+
+narrowest implementation of a nested class:
+
+default -> new Employee() {
+
+                    @Override
+                    public int getSalary() {
+                        return 0;
+                    }
+                };

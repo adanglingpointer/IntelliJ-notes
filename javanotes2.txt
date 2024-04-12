@@ -140,3 +140,27 @@ default -> new Employee() {
                         return 0;
                     }
                 };
+
+=====
+
+Most boilerplate Java classes will contain:
+ - Two Constructors
+	- No arg default constructor
+	- Some/all fields constructor
+ - Getters and setters (usually comprising all fields of the class)
+ - equals and hashCode methods (overrides)
+ - ToString method (override)
+
+These longwinded declarations can be simplified in newer versions of Java with a "record"
+
+public record Weirdo(String lastName, String firstName, LocalDate dob) {
+}
+
+Weirdo larry = new Weirdo("David", "Larry", LocalDate.of(1950, 1, 1));
+System.out.println(larry.firstName());
+
+We can not change fields on a record once instantiated.  No setters.
+Records can not extend any class.  They are final.
+They can implement an interface.
+No abstraction for records.
+They can be nested inside of other classes.

@@ -29,6 +29,7 @@
             Ctrl + Shift + T = navigate to test class from class that you are testing
             Alt + 1 = close project pane
             Ctrl + Alt + O = optimize imports, remove unused
+            Ctrl + Alt + B = jump into the final implementation of a method
          */
 
 to run a compiled java app:

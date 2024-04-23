@@ -167,3 +167,16 @@ No abstraction for records.
 They can be nested inside of other classes.
 
 Generate > Delegate methods - can be used to implement methods from another class within the current class
+
+Default methods on interfaces are not required to be implemented by classes.
+
+An abstract class can't be instantiated on it's own.  It can maintain state.
+
+Interfaces can not hold any state:
+
+//    default void setFavoriteFood(String favoriteFood) {
+//        this.favoriteFood = favoriteFood;
+//    }
+
+defaults are really used by developers making frameworks and APIs, not in-user devs, in-house code
+
